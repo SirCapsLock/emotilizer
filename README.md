@@ -3,6 +3,11 @@ Emotilizer
 
 **Emotilizer is the next dimension in social media. Know how your friends are feeling.
 
+Technologies
+===============
+Parse with PHP framework Laravel
+React JS for the Chrome Extension
+Adobe AIR for the mobile app
 
 
 People With Computers
