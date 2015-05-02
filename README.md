@@ -10,7 +10,7 @@ React JS for the Chrome Extension
 Adobe AIR for the mobile app
 
 
-People With Computers
+Emotilizer Team
 ---------------------
 
 **People With Computers** is:
