@@ -1,0 +1,29 @@
+{
+  "name": "emotilizer",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Facebook post emotion analysis",
+  "icons": {
+    
+    "48": "icons/icon48.png",
+    
+  },
+  
+  "background": {
+    "page": "src/bg/background.html",
+    "persistent": true
+  },
+  "options_page": "src/options/index.html",
+  "browser_action": {
+    "default_icon": "icons/icon48.png",
+    "default_title": "page action demo",
+    "default_popup": "page_action.html"
+  },
+  "content_security_policy": "script-src 'self' http://emotilizer.club/*; object-src 'self'",
+  
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+	"http://emotilizer.club/emoapi/*",
+  ]
+}
